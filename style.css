@@ -1,0 +1,123 @@
+      @media screen and (min-width: 1024px) {
+          body {
+              margin: 0;
+          }
+
+          .header {
+              background-color: gray;
+              display: flex;
+              padding: 10px;
+              justify-content: center;
+          }
+
+          main {
+              display: flex;
+          }
+
+          .main_block_content {
+              width: 80%;
+              background-color: rgb(240, 227, 112);
+              padding: 20px;
+              text-align: center;
+          }
+
+          .aside {
+              width: 30%;
+              padding: 20px;
+              display: flex;
+              justify-content: center;
+              background-color: rgba(100, 231, 100, 0.74);
+          }
+
+          .footer_block {
+              background-color: gray;
+              padding: 10px;
+              display: flex;
+              justify-content: space-around;
+          }
+
+          .block_items {
+              display: flex;
+              margin-bottom: 20px;
+          }
+
+          .item_content {
+              width: 50%;
+              padding: 10px 0;
+              text-align: center;
+              background-color: rgb(231, 241, 83);
+              justify-content: space-between;
+          }
+
+          .block_items .item_content:nth-child(1) {
+              margin-right: 20px;
+          }
+
+
+          .item_content {
+              width: 100%;
+
+          }
+      }
+
+      @media screen and (max-width: 1023px) {
+          body {
+              margin: 0;
+          }
+
+          .header {
+              background-color: gray;
+              display: flex;
+              padding: 10px;
+              justify-content: center;
+          }
+
+          main {
+              display: flex;
+          }
+
+          .main_block_content {
+              width: 80%;
+              background-color: rgb(240, 227, 112);
+              padding: 20px;
+              text-align: center;
+          }
+
+          .aside {
+              width: 30%;
+              padding: 20px;
+              display: flex;
+              justify-content: center;
+              background-color: rgba(100, 231, 100, 0.74);
+          }
+
+          .footer_block {
+              background-color: gray;
+              padding: 10px;
+              display: flex;
+              justify-content: space-around;
+          }
+
+          .block_items {
+              display: flex;
+              margin-bottom: 20px;
+          }
+
+          .item_content {
+              width: 50%;
+              padding: 10px 0;
+              text-align: center;
+              background-color: rgb(231, 241, 83);
+              justify-content: space-between;
+          }
+
+          .block_items .item_content:nth-child(1) {
+              margin-right: 20px;
+          }
+
+
+          .item_content {
+              width: 100%;
+
+          }
+      }
